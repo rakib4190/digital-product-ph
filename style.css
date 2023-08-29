@@ -59,8 +59,7 @@
 }
 
 .bn-photo {
-    margin-top: 250px;
-    margin-bottom: 250px;
+
     width: 300px;
 }
 
@@ -78,10 +77,19 @@
 }
 
 .about {
-    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .section-title {
     font-size: 70px;
     text-align: center;
+}
+
+.about-info,
+h1 {
+    font-size: 20px;
+
+
 }
